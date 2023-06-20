@@ -1,0 +1,23 @@
+h1, p {
+    text-align: center;
+}
+
+.main-container {
+    width: 40%;
+    margin: auto;
+}
+
+.blackboard-container {
+    width: 100%;
+}
+
+.blackboard-container textarea{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.controls-container {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}

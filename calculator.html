@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <title>Módulo6_3: Calculator</title>
+</head>
+<body>
+    <h1>Módulo6_3: Calculadora cambio óptimo</h1>
+    <div class="main-container">
+        <div class="cash-available-container">
+            <h2>Efectivo disponible</h2>
+            <div class="field-container">
+                <label for="euro200">200€</label>
+                <input type="number" name="euro_200" id="euro200" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro100">100€</label>
+                <input type="number" name="euro_100" id="euro100" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro50">50€</label>
+                <input type="number" name="euro_50" id="euro50" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro20">20€</label>
+                <input type="number" name="euro_20" id="euro20" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro10">10€</label>
+                <input type="number" name="euro_10" id="euro10" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro5">5€</label>
+                <input type="number" name="euro_5" id="euro5" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro2">2€</label>
+                <input type="number" name="euro_2" id="euro2" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro1">1€</label>
+                <input type="number" name="euro_1" id="euro1" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro05">0,5€</label>
+                <input type="number" name="euro_05" id="euro0.5" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro02">0,2€</label>
+                <input type="number" name="euro_02" id="euro0.2" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro01">0,1€</label>
+                <input type="number" name="euro_01" id="euro0.1" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro005">0,05€</label>
+                <input type="number" name="euro_005" id="euro0.05" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro002">0,02€</label>
+                <input type="number" name="euro_002" id="euro0.02" min="0" value="10">
+            </div>
+            <div class="field-container">
+                <label for="euro001">0,01€</label>
+                <input type="number" name="euro_001" id="euro0.01" min="0" value="10">
+            </div>
+        </div>
+        <div class="purchase-data-container">
+            <h2>Datos compra</h2>
+            <div class="field-container">
+                <label for="price">Precio:</label>
+                <input type="number" name="price_field" id="price" min="0" value="0">
+            </div>
+            <div class="field-container">
+                <label for="amountGiven">Pago:</label>
+                <input type="number" name="amount_given" id="amountGiven" min="0" value="0">
+            </div>
+        </div>
+        <div class="change-container">
+            <h2>Cambio óptimo</h2>
+            <textarea name="optimum_change_blackboard" id="optimumChangeBlackboard" rows="15" disabled></textarea>
+        </div>
+        <div class="button-container">
+            <div class="field-container">
+                <input type="button" value="Calcular cambio óptimo" id="calculateOptimumChange">
+            </div>
+        </div>
+        <p><a href="./index">volver</a></p>
+    </div>
+    <script src="./js/calculator.js"></script>
+</body>
+</html>

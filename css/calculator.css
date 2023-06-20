@@ -1,0 +1,52 @@
+h1, h2, p {
+    text-align: center;
+}
+
+.main-container {
+    width: 40%;
+    margin: auto;
+}
+
+.cash-available-container {
+    display: inline-block;
+    width: 47%;
+    border: 1px solid #c4c4c4;
+    margin: 1%;
+}
+
+.purchase-data-container {
+    width: 47%;
+    border: 1px solid #c4c4c4;
+    margin: 1%;
+    float: right;
+}
+
+.change-container {
+    display: inline-block;
+    width: 97%;
+    margin: 1%;
+}
+
+.change-container > textarea{
+    width: 100%;
+}
+
+.field-container {
+    margin: 3%;
+}
+
+.cash-available-container .field-container label,
+.purchase-data-container .field-container label {
+    display: inline-block;
+    width: 50px;
+}
+
+.cash-available-container .field-container input,
+.purchase-data-container .field-container input {
+    display: inline-block;
+    width: 75px;
+}
+
+.button-container {
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/shapes.css">
+    <title>Módulo6_3: Figuras</title>
+</head>
+<body>
+    <h1>Módulo6_3: Figuras</h1>
+    <div class="main-container">
+        <div class="controls-container">
+            <div id="shape-type-container">
+                <label for="shape_type">Forma</label>
+                <select name="shape_type" id="shapeType">
+                    <option value="1" selected>Cuadrado</option>
+                    <option value="2">Cuadrado con borde</option>
+                    <option value="3">Cuadrado diagonal izquierda-derecha</option>
+                    <option value="4">Cuadrado diagonal derecha-izquierda</option>
+                    <option value="5">Medio diamante</option>
+                    <option value="6">Pirámide</option>
+                    <option value="7">Diamante</option>
+                </select>
+            </div>
+            <div id="shape-size-container">
+                <label for="shape_size">Tamaño</label>
+                <input type="number" name="shape_size" id="shapeSize" min="1" value="1">
+            </div>
+            <div id="special-controls-container1">
+                <label for="shape_symbol">Símbolo</label>
+                <input type="text" name="shape_symbol" id="shapeSymbol" maxlength="1" value="*">
+            </div>
+            <div id="special-controls-container2">
+                <label for="shape_border_symbol">Símbolo bordes</label>
+                <input type="text" name="shape_border_symbol" id="shapeBorderSymbol" maxlength="1" value="B">
+            </div>
+            <div id="special-controls-container3">
+                <div>
+                    <label for="shape_diagonal_symbol">Símbolo diagonal</label>
+                    <input type="text" name="shape_diagonal_symbol" id="shapeDiagonalSymbol" maxlength="1" value="\"><br>
+                </div>
+                <div>
+                    <label for="shape_up_symbol">Símbolo arriba</label>
+                    <input type="text" name="shape_up_symbol" id="shapeUpSymbol" maxlength="1" value="A"><br>
+                </div>
+                <div>
+                    <label for="shape_down_symbol">Símbolo abajo</label>
+                    <input type="text" name="shape_down_symbol" id="shapeDownSymbol" maxlength="1" value="B"><br>
+                </div>
+            </div>
+        </div>
+        <div class="blackboard-container">
+            <textarea name="shape_blackboard" id="shapeBlackboard" rows="40" disabled></textarea>
+        </div>
+        <p><a href="./index">volver</a></p>
+    </div>
+    <script src="./js/shapes.js"></script>
+</body>
+</html>

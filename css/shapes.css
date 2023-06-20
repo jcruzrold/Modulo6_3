@@ -1,0 +1,58 @@
+h1, p {
+    text-align: center;
+    margin: 16px 0px 16px 0px;
+}
+
+.main-container {
+    width: 50%;
+    margin: auto;
+}
+
+.controls-container {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.controls-container > div {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 8px;
+}
+
+#special-controls-container3 > div{
+    display: flex;
+    justify-content: left;
+    min-width: 33%;
+    max-width: 33%;
+}
+
+.blackboard-container {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    border: 1px solid #797979;
+}
+
+label {
+    display: block;
+    max-width: 125px;
+    min-width: 125px;
+}
+
+input {
+    display: block;
+    max-width: 32px;
+    min-width: 32px;
+    margin-right: 16px;
+}
+
+select {
+    display: block;
+    max-width: 250px;
+    min-width: 250px;
+}
